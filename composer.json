@@ -1,0 +1,17 @@
+{
+    "name": "szjani/cqrs-sample-write-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Szurovecz János",
+            "email": "szjani@szjani.hu"
+        }
+    ],
+    "require": {
+        "predaddy/predaddy": "1.2.5",
+        "szjani/cqrs-sample-write-implementation": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {"hu": "src/"}
+    }
+}
